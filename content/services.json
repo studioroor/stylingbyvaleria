@@ -1,0 +1,40 @@
+{
+  "services": [
+    {
+      "title": "Personal Styling",
+      "icon": "/assets/images/icon01.png",
+      "intro": "Binnenkort een speciale gelegenheid, zoals een diner, bruiloft, feestje, sollicitatie of een fotoshoot? Wij helpen je graag",
+      "more": "en shoppen voor jou de perfecte outfit. Een stylist nodig bij een evenement of in een kledingwinkel? Wij helpen jouw klanten graag met een stijladvies."
+    },
+    {
+      "title": "Personal Shopping",
+      "icon": "/assets/images/icon02.png",
+      "intro": "Op zoek naar een paar geweldige outfits voor het nieuwe seizoen? Gebrek aan tijd, zin of inspiratie om te shoppen? Lastig om",
+      "more": "de juiste keuzes te maken tijdens het winkelen? Wij gaan voor je aan de slag. Samen bespreken wij of we met elkaar of alleen voor jou gaan shoppen."
+    },
+    {
+      "title": "Garderobe Planning",
+      "icon": "/assets/images/icon03.png",
+      "intro": "Wanneer je het lastig vindt om te combineren, er kledingstukken in de kast hangen die je opnieuw wilt ontdekken, of je weet niet meer",
+      "more": "wat wel en niet leuk is? Wij kunnen je helpen. Het resultaat van een garderobe planning is een gestructureerde garderobe, nieuwe combinaties, een shoppinglist en een stijladvies."
+    },
+    {
+      "title": "Workshops",
+      "icon": "/assets/images/icon04.png",
+      "intro": "Wat doe ik aan op Casual Friday? Wat zijn de trends en modemusthaves van dit seizoen? Wat doe ik met mijn miskoop? Welke kleding",
+      "more": "past bij mijn figuur? Een aantal voorbeelden van onderwerpen waar wij een workshop voor aanbieden. Workshops worden naar wens vorm gegeven, of dit nu voor een bedrijf, een vrijgezellenfeest of een gezellige avond met vriendinnen is."
+    },
+    {
+      "title": "Men’s Styling",
+      "icon": "/assets/images/icon05.png",
+      "intro": "Mode speelt een steeds grotere rol in het dagelijkse leven van de man. Een goed verzorgd uiterlijk is een belangrijk",
+      "more": "onderdeel van je presentatie en de juiste kleding draagt hier aan bij. Daarom bieden wij ook verschillende services aan op het gebied van styling voor mannen. Geen tijd of zin om te winkelen? Geen inspiratie voor nieuwe outfits? Op zoek naar een andere stijl? Of altijd aan het twijfelen wat je aan doet op Casual Friday? Wij helpen je graag."
+    },
+    {
+      "title": "Cadeaubon",
+      "icon": "/assets/images/icon06.png",
+      "intro": "Wil jij iemand verrassen met een leuk en origineel cadeau? Geef een cadeaubon van Styling by Valeria. Samen kunnen",
+      "more": "wij de invulling van de cadeaubon bespreken."
+    }
+  ]
+}
