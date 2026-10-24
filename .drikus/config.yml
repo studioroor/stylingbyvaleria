@@ -1,0 +1,48 @@
+# yaml-language-server: $schema=https://github.com/studioroor/drikus-cms/raw/main/schema/drikus-config.schema.json
+media:
+  folder: assets/images
+  publicPath: /assets/images
+
+collections:
+  - name: services
+    label: Services
+    file: content/services.json
+    fields:
+      - name: services
+        label: Services
+        type: list
+        fields:
+          - { name: title, label: Titel, required: true }
+          - { name: icon, label: Icoon, type: image }
+          - { name: intro, label: Korte tekst, type: text, required: true, hint: Altijd zichtbaar }
+          - { name: more, label: Rest van de tekst, type: text, hint: Zichtbaar na "Lees meer". Laat leeg als de korte tekst genoeg is. }
+
+  - name: about
+    label: About Valeria
+    file: content/about.json
+    fields:
+      - { name: photo, label: Foto, type: image }
+      - { name: text, label: Tekst, type: text, required: true, hint: Laat een witregel tussen alinea's. }
+
+  - name: reviews
+    label: Reviews
+    file: content/reviews.json
+    fields:
+      - name: reviews
+        label: Reviews
+        type: list
+        hint: De bovenste review staat als eerste op de site.
+        fields:
+          - { name: name, label: Naam, required: true }
+          - { name: text, label: Review, type: text, required: true, hint: Laat een witregel tussen alinea's. }
+
+  - name: site
+    label: Contactgegevens
+    file: content/site.json
+    fields:
+      - { name: email, label: E-mailadres, required: true }
+      - { name: phone, label: Telefoonnummer (voor de link), required: true, hint: "Internationaal, zonder spaties: +31612345678" }
+      - { name: phoneLabel, label: Telefoonnummer (zoals getoond), required: true }
+      - { name: instagram, label: Instagram, type: url }
+      - { name: facebook, label: Facebook, type: url }
+      - { name: pinterest, label: Pinterest, type: url }
